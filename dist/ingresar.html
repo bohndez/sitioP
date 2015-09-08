@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Proyecto nombre</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+
+		<div id="login">
+			<form action="login.php" method="POST">
+				<input type="text" name="nombre" id="nombre">
+				<input type="password" name="pass" id="pass">
+
+				<input type="submit" value="ENTRAR">
+
+				<div style="display:none;" id="error">
+					<p>Hubo un error</p>
+				</div>
+			</form>
+		</div>
+
+	</div><!-- /wrap -->
+
+	<!-- scripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

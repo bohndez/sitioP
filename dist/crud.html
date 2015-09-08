@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Proyecto nombre</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<figure>
+				<img src="assets/images/logo.jpg" alt="logo">
+			</figure>
+			<nav>
+				<p>hola machine</p>
+				<a href="#">salir</a>
+			</nav>
+		</header>
+
+		<section>
+			<table>
+				<tr>
+					<th>#</th>
+					<th>proyecto</th>
+					<th>tipo</th>
+					<th>fecha</th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>01</td>
+					<td>m ipsum dolor sit amet, con</td>
+					<td>wordpress</td>
+					<td>2015-23-12</td>
+					<td>editar</td>
+					<td>eliminar</td>
+				</tr>
+				<tr>
+					<td>02</td>
+					<td>oiervr n3r9cj3vr3 3jmv3</td>
+					<td>html, php</td>
+					<td>2015-23-12</td>
+					<td>editar</td>
+					<td>eliminar</td>
+				</tr>
+				<tr>
+					<td>03</td>
+					<td>oiervr n3r9cj3vr3 3jmv3</td>
+					<td>html, php</td>
+					<td>2015-23-12</td>
+					<td>editar</td>
+					<td>eliminar</td>
+				</tr>
+			</table>
+		</section>
+		
+		<section>
+			<h1>Agregar un nuevo proyecto</h1>
+
+			<div id="agregar">
+				<form action="agregar.php" method="GET">
+					<label for="nombre">Nombre Proyecto</label>
+					<input type="text" name="nombre" id="nombre">
+
+					<label for="descripcion">Descripción</label>
+					<textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+
+					<label for="tipo">TIPO</label>
+					<input type="text" name="tipo" id="tipo">
+
+					<label for="cliente">cliente</label>
+					<input type="text" name="cliente" id="cliente">
+
+					<label for="url">URL</label>
+					<input type="text" name="url" id="url">
+
+					<input type="file" name="imagen" id="imagen">
+
+					<input type="submit" value="AGREGAR">
+				</form>
+			</div>
+		</section>
+
+	</div><!-- /wrap -->
+
+	<!-- scripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
